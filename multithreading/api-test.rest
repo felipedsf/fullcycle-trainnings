@@ -1,5 +1,0 @@
-### get CEP via brasilapi
-GET https://brasilapi.com.br/api/cep/v1/34018050
-
-### get CEP via viacep
-GET http://viacep.cosam.br/ws/34018050/json/
