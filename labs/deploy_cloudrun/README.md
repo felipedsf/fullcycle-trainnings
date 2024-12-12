@@ -1,10 +1,14 @@
 ## Project Briefing: Temperature API
 The Temperature API is a project designed to provide weather-related data through a simple API interface. It allows users to retrieve temperature information for various cities, making it a valuable tool for applications that require weather data integration.
 
+- CloudRun URL: `https://city-weather-cloudrun-x2h4cdaqvq-uc.a.run.app/`
+- Example URL: `https://city-weather-cloudrun-x2h4cdaqvq-uc.a.run.app/30150331`
+
 ### Key Features:
 - **API Access**: The project includes examples of how to call the API both locally and when deployed on Google Cloud Run.
 - **Environment Configuration**: Users can easily configure the API by setting the WEATHER_API_KEY environment variable, which is essential for authenticating requests to the weather data provider.
 - **Local and Docker Support**: The API can be run locally using Go or deployed in a Docker container, providing flexibility for different development and production environments.
+
 ### Setup Instructions:
  - Firstly, you need to get a key on ``https://www.weatherapi.com/``
  - To run the API locally, set the ``WEATHER_API_KEY`` and specify the ``SERVICE_PORT`` before executing the main application.
