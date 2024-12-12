@@ -1,4 +1,5 @@
-module github.com/felipedsf/go-samples/clean-architecture
+module github.com/felipedsf/fullcycle-trannings/goexpert/clean-architecture
+
 
 go 1.19
 

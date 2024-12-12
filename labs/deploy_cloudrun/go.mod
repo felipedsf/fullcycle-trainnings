@@ -1,4 +1,4 @@
-module github.com/felipedsf/go-samples/deploy_cloudrun
+module github.com/felipedsf/fullcycle-trannings/labs/deploy_cloudrun
 
 go 1.22
 
