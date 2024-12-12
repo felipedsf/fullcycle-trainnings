@@ -1,7 +1,7 @@
 module github.com/felipedsf/fullcycle-trannings/goexpert/clean-architecture
 
 
-go 1.19
+go 1.22.0
 
 require (
 	github.com/99designs/gqlgen v0.17.22

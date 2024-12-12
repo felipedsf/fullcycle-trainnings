@@ -1,0 +1,11 @@
+go 1.22.0
+
+toolchain go1.22.7
+
+use (
+	goexpert/clean-architecture
+	goexpert/client-server-api/client
+	goexpert/client-server-api/server
+	goexpert/multithreading
+	labs/deploy_cloudrun
+)
