@@ -3,7 +3,7 @@ package handlers
 import (
 	"context"
 	"encoding/json"
-	"github.com/felipedsf/go-samples/deploy_cloudrun/internal/integrations"
+	"github.com/felipedsf/fullcycle-trannings/labs/deploy_cloudrun/internal/integrations"
 	log "github.com/sirupsen/logrus"
 	"net/http"
 	"strconv"

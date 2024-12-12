@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/felipedsf/go-samples/deploy_cloudrun/internal/handlers"
-	"github.com/felipedsf/go-samples/deploy_cloudrun/internal/integrations"
+	"github.com/felipedsf/fullcycle-trannings/labs/deploy_cloudrun/internal/handlers"
+	"github.com/felipedsf/fullcycle-trannings/labs/deploy_cloudrun/internal/integrations"
 	log "github.com/sirupsen/logrus"
 	"os"
 
