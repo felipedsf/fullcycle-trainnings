@@ -16,9 +16,9 @@ var (
 )
 
 func main() {
-	flag.StringVar(&url, "url", "https://google.com", "url to be stressed")
-	flag.IntVar(&concurrency, "concurrency", 20, "number of concurrent requests")
-	flag.IntVar(&requests, "requests", 3500, "number of requests")
+	flag.StringVar(&url, "url", "https://www.webpagetest.org/ ", "url to be stressed")
+	flag.IntVar(&concurrency, "concurrency", 100, "number of concurrent requests")
+	flag.IntVar(&requests, "requests", 3000, "number of requests")
 	flag.Parse()
 
 	logrus.Info("url ", url, " requests ", requests, " concurrency ", concurrency)
