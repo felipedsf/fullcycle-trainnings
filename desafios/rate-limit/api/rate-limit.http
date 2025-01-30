@@ -1,0 +1,6 @@
+### GET test
+GET http://localhost:8080/test
+#API_KEY: 123token
+API_KEY: sub-token-2
+
+###
