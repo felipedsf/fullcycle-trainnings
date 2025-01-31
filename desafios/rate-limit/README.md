@@ -1,4 +1,8 @@
-### Environment Variables
+## Run project
+> make start
+
+---
+## Environment Variables
 The project uses a `.env` file for configuration. Below are the required environment variables:
 
 | Variable | Description                                           | Default Value                                                           |
